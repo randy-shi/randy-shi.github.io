@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Urgent Care services for immediate medical attention"
+    />
+    <title>UrgentCare+</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header id="header">
+      <nav>
+        <div class="logo">
+          <h1>UrgentCare+</h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#clinic">Our Clinic</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Your Health, Our Priority</h2>
+        <p class="slogan">Immediate care for your emergency medical needs</p>
+        <a href="#contact" class="btn">Book Appointment</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <i class="fas fa-ambulance service-icon"></i>
+          <h3>Emergency Care</h3>
+          <p>
+            Quick, effective treatment for urgent medical conditions like
+            accidents, burns, and more.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fas fa-band-aid service-icon"></i>
+          <h3>Minor Injuries</h3>
+          <p>
+            Care for cuts, sprains, fractures, and other minor injuries with
+            immediate attention.
+          </p>
+        </div>
+        <div class="card">
+          <i class="fas fa-syringe service-icon"></i>
+          <h3>Flu & Cold Treatment</h3>
+          <p>
+            Relief from flu-like symptoms, cold, and seasonal allergies. Get
+            quick diagnosis and treatment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Common Conditions Section -->
+    <section id="conditions" class="conditions">
+      <h2>Common Conditions We Treat</h2>
+      <div class="condition-cards">
+        <div class="card">
+          <h3>Headaches & Migraines</h3>
+          <p>
+            We offer quick relief for headaches, migraines, and tension
+            headaches.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Respiratory Issues</h3>
+          <p>
+            Treatment for asthma, shortness of breath, and respiratory
+            infections.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Infections</h3>
+          <p>
+            Quick care for common infections like urinary tract infections, ear
+            infections, and more.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <h2>What Our Patients Say</h2>
+      <div class="testimonial-cards">
+        <div class="card">
+          <p>
+            "The staff at UrgentCare+ were so kind and efficient. I got treated
+            for a minor injury in no time!"
+          </p>
+          <h4>- Jane D.</h4>
+        </div>
+        <div class="card">
+          <p>
+            "I had a flu last winter, and UrgentCare+ took great care of me. I
+            felt better in just a few days."
+          </p>
+          <h4>- Mark P.</h4>
+        </div>
+        <div class="card">
+          <p>
+            "A great experience all around! Fast, professional service that I
+            trust."
+          </p>
+          <h4>- Sarah W.</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        UrgentCare+ is a trusted urgent care center providing quick,
+        compassionate medical attention for a wide range of health concerns. Our
+        experienced healthcare professionals are here to deliver timely
+        treatment with state-of-the-art equipment in a comfortable environment.
+      </p>
+      <div class="stats">
+        <div class="stat-item">
+          <h3>5+</h3>
+          <p>Years of Experience</p>
+        </div>
+        <div class="stat-item">
+          <h3>20K+</h3>
+          <p>Happy Patients</p>
+        </div>
+        <div class="stat-item">
+          <h3>3</h3>
+          <p>Locations</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>
+        &copy; 2024 UrgentCare+. All Rights Reserved.
+        <a href="#contact">Contact Us</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
